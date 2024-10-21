@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adex_app_icon.png",
         "backgroundColor": "#000"
-      }
+      },
+      "package": "com.shadow07.adexmobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "afc69dc1-0d6e-40d6-943f-7d5a789af11d"
+      }
     }
   }
 }

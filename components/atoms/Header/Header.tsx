@@ -7,7 +7,7 @@ import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 export default function Header() {
   return (
     <View
-      style={tw`mt-[${StatusBar.currentHeight!}] h-[4rem] px-[1rem] bg-gray-800 flex-row items-center justify-between`}
+      style={tw` h-[4rem] px-[1rem] bg-gray-800 flex-row items-center justify-between`}
     >
       <Image
         style={tw`h-[2.8rem] w-[10rem]`}

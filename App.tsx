@@ -7,6 +7,7 @@ import { StatusBar } from "react-native";
 import HomeTabs from "./components/templates/HomeTabs/HomeTabs";
 
 const Stack = createNativeStackNavigator();
+
 export default function App() {
   return (
     <PaperProvider>
